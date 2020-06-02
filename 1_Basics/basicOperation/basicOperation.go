@@ -1,4 +1,4 @@
-package basicOperation
+package basicoperation
 
 import (
 	"fmt"
@@ -50,7 +50,6 @@ func DivideNumbers(a, b int) int {
 	if b == 0 {
 		fmt.Println("Undefined")
 		return 0
-	} else {
-		return a / b
 	}
+	return a / b
 }

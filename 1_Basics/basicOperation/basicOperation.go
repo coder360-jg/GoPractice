@@ -1,4 +1,4 @@
-package basicoperation
+package basicoperation //Package name should be lowercase
 
 import (
 	"fmt"

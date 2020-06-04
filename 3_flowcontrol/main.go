@@ -23,7 +23,7 @@ func main() {
 
 }
 
-//Forloop : Example C while is spelled for in Go
+//Forloop : Example -C while is spelled for in Go
 func forloop() {
 	i := 0
 	for i < 100 {

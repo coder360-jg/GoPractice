@@ -41,4 +41,8 @@ func main() {
 	slc1 = arr[2:4]
 	fmt.Printf("len %d ; capacity %d\n", len(slc1), cap(slc1))
 
+	slc1 = arr[:]
+	slc1 = append(slc1, 11, 12, 13, 14)
+	fmt.Printf("len %d ; capacity %d %v\n", len(slc1), cap(slc1), slc1)
+
 }
